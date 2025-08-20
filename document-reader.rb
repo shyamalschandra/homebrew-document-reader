@@ -7,7 +7,7 @@ class DocumentReader < Formula
   sha256 "a398a5106e5e09bf7fd98e3f686268696e02a38b35552ffea3d9cdbdf73ad3ee"
   
   depends_on :macos
-  depends_on "vlc"
+  depends_on "vlc" => :cask
   
   def install
     # Install CLI binary
@@ -80,7 +80,7 @@ class DocumentReader < Formula
       
       Requirements:
         - macOS 13.0 or later
-        - VLC media player (install via: brew install vlc)
+        - VLC media player (install via: brew install --cask vlc)
       
       For more information, visit: https://github.com/shyamalschandra/Document-Reader-I
     EOS
