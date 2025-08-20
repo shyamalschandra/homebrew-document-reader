@@ -7,7 +7,7 @@ class DocumentReader < Formula
   sha256 "a398a5106e5e09bf7fd98e3f686268696e02a38b35552ffea3d9cdbdf73ad3ee"
   
   depends_on :macos
-  depends_on "vlc" => :cask
+  depends_on cask: "vlc"
   
   def install
     # Install CLI binary
