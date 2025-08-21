@@ -1,9 +1,9 @@
 class DocumentReader < Formula
   desc "Convert PDF documents to M3U playlists and play them in VLC"
   homepage "https://github.com/shyamalschandra/Document-Reader-I"
-  version "1.1.1"
+  version "1.1.2"
   
-  url "https://github.com/shyamalschandra/document-reader-releases/releases/download/v1.1.1/document-reader-v1.1.1-macos.tar.gz"
+  url "https://github.com/shyamalschandra/document-reader-releases/releases/download/v1.1.2/document-reader-v1.1.2-macos.tar.gz"
   sha256 "517873ead72daf2beace7d0ed48e72e2de1fa989120e682961621a84b03dc353"
   
   depends_on :macos
