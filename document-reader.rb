@@ -4,7 +4,7 @@ class DocumentReader < Formula
   version "1.1.1"
   
   url "https://github.com/shyamalschandra/document-reader-releases/releases/download/v1.1.1/document-reader-v1.1.1-macos.tar.gz"
-  sha256 "72690cde47b11697695a37ffcdcc0193bd6c20acfb56037f79235ba2fbb6f24b"
+  sha256 "517873ead72daf2beace7d0ed48e72e2de1fa989120e682961621a84b03dc353"
   
   depends_on :macos
   
